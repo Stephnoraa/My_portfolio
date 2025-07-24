@@ -107,9 +107,9 @@ export default function About() {
                 My work lives at the intersection of cloud engineering, security, and automation.
                 I’m fascinated by how modern infrastructure can be built, monitored, defended, and made
                 smarter with the right code and systems in place. Whether it’s detecting anomalies in a SOC environment,
-                securing cloud workloads, or writing scripts to automate the boring stuff — I’m there, sleeves rolled up.
+                securing cloud workloads, or writing scripts to automate the boring stuff — I’m there!
                 This website is a digital scrapbook of everything I am: a builder,
-                a learner, an advocate, a multitasker with main character energy and a to-do list that never ends.
+                a learner, an advocate, a multitasker with a to-do list that never ends.
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -117,9 +117,10 @@ export default function About() {
                 transition={{ duration: 0.5, delay: 0.5 }}
                 className="text-lg text-foreground/80"
               >
-                I started my career in tech as a junior developer in 2021, where I built web applications and learned the ropes of coding.
+                I started my career in tech as a junior developer in 2023, where I built web applications and learned the ropes of coding.
                 Since then, I transitioned into a cybersecurity analyst role, where I worked for over two years.
-                My experience spans various domains, including Cloud Engineering, SOC, Ethical Hacking and Digital Forensics, and automation.
+                My experience spans various domains, including Cloud Engineering, SOC, Digital Forensics and automation.
+                I have completed multiple internships and worked on a lot projects to build my expertise.
                 My goal is to continue growing in this field, leveraging my unique background to bring fresh perspectives to the table.
               </motion.p>
             </div>
@@ -158,7 +159,7 @@ export default function About() {
         </div>
         <div className="container mx-auto px-4 relative">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-800 dark:text-white font-display">
-            My <span className="gradient-text">Skillset</span>
+            My Skillset
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -248,7 +249,7 @@ export default function About() {
         </div>
         <div className="container mx-auto px-4 relative">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-800 dark:text-white font-display">
-            Work <span className="gradient-text">Experience</span>
+            Work Experience
           </h2>
 
           <motion.div
@@ -267,17 +268,17 @@ export default function About() {
                 <Briefcase className="h-8 w-8 text-purple-600 mr-4" />
                 <div>
                   <h3 className="text-2xl font-bold text-gray-800 dark:text-white font-display">
-                    Cyber Security Intern
+                    Cybersecurity  & Cloud Security  Intern
                   </h3>
-                  <p className="text-lg text-gray-600 dark:text-gray-400">Shadow Fox | Remote | 02/2025 - Present</p>
+                  <p className="text-lg text-gray-600 dark:text-gray-400">Cyblack | London, UK | 05-2025 - 09-2025</p>
                 </div>
               </div>
               <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
-                <li>Monitored network traffic using Wireshark to detect potential security threats.</li>
-                <li>Conducted vulnerability assessments using Nmap to identify misconfigured systems.</li>
-                <li>Performed log analysis with Security Onion to detect suspicious activity and unauthorized access.</li>
-                <li>Investigated security incidents by analyzing logs, attack patterns, and system anomalies.</li>
-                <li>Created detailed security reports with findings, mitigation strategies, and remediation steps.</li>
+                <li>Assisted in designing and implementing secure cloud architectures on AWS and Azure.</li>
+                <li>Monitored and responded to cloud security incidents, ensuring compliance with industry standards.</li>
+                <li>Automated security controls and vulnerability management using cloud-native tools.</li>
+                <li>Collaborated with cross-functional teams to improve security posture and incident response.</li>
+                <li>Worked as a team on the 6 different domains in cybersecurity, solving our company's challenges, reporting and presenting to the board.</li>
               </ul>
             </motion.div>
             {/* Job 2: Hacktify */}
@@ -289,9 +290,9 @@ export default function About() {
                 <Briefcase className="h-8 w-8 text-pink-600 mr-4" />
                 <div>
                   <h3 className="text-2xl font-bold text-gray-800 dark:text-white font-display">
-                    Cyber Security Intern
+                    Cyber Security Analyst Intern
                   </h3>
-                  <p className="text-lg text-gray-600 dark:text-gray-400">Hacktify | Remote | 01/2025 - Present</p>
+                  <p className="text-lg text-gray-600 dark:text-gray-400">Hacktify | Remote | 01/2025 - 03/2025</p>
                 </div>
               </div>
               <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
@@ -310,17 +311,19 @@ export default function About() {
                 <Briefcase className="h-8 w-8 text-blue-600 mr-4" />
                 <div>
                   <h3 className="text-2xl font-bold text-gray-800 dark:text-white font-display">
-                    Cybersecurity Intern & Cloud Security Engineer
+                    Cybersecurity  Analyst Intern
                   </h3>
-                  <p className="text-lg text-gray-600 dark:text-gray-400">Cyblack | London, UK | 2025</p>
+                  <p className="text-lg text-gray-600 dark:text-gray-400">Shadow Fox | Remote | 12/2024 - 02/2025</p>
                 </div>
               </div>
               <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
-                <li>Assisted in designing and implementing secure cloud architectures on AWS and Azure.</li>
-                <li>Monitored and responded to cloud security incidents, ensuring compliance with industry standards.</li>
-                <li>Automated security controls and vulnerability management using cloud-native tools.</li>
-                <li>Collaborated with cross-functional teams to improve security posture and incident response.</li>
+                <li>Monitored network traffic using Wireshark to detect potential security threats.</li>
+                <li>Conducted vulnerability assessments using Nmap to identify misconfigured systems.</li>
+                <li>Performed log analysis with Security Onion to detect suspicious activity and unauthorized access.</li>
+                <li>Investigated security incidents by analyzing logs, attack patterns, and system anomalies.</li>
+                <li>Created detailed security reports with findings, mitigation strategies, and remediation steps.</li>
               </ul>
+
             </motion.div>
             {/* Job 4: CyberSecured India */}
             <motion.div
@@ -333,7 +336,7 @@ export default function About() {
                   <h3 className="text-2xl font-bold text-gray-800 dark:text-white font-display">
                     Cybersecurity Analyst Intern
                   </h3>
-                  <p className="text-lg text-gray-600 dark:text-gray-400">CyberSecured India | India | 2025</p>
+                  <p className="text-lg text-gray-600 dark:text-gray-400">CyberSecured India | India | 2024</p>
                 </div>
               </div>
               <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
@@ -354,7 +357,7 @@ export default function About() {
                   <h3 className="text-2xl font-bold text-gray-800 dark:text-white font-display">
                     Python Developer
                   </h3>
-                  <p className="text-lg text-gray-600 dark:text-gray-400">We do all tech | Remote | 11/2023 - 05/2024</p>
+                  <p className="text-lg text-gray-600 dark:text-gray-400">Oasis Infobyte | Remote | 11/2023 - 05/2024</p>
                 </div>
               </div>
               <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
@@ -415,17 +418,15 @@ export default function About() {
               </div>
               <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 space-y-2">
                 <li>Google Cybersecurity Professional Certification</li>
+                <li>Certified in Cybersecurity (CC)</li>
                 <li>CompTIA Security+ <span className="italic">(in view)</span></li>
                 <li>AWS Certified Cloud Practitioner <span className="italic">(in view)</span></li>
                 <li>Google Cloud Engineer Associate</li>
                 <li>Google Cloud Cybersecurity Certificate</li>
-                <li>Certified in Cybersecurity (CC)</li>
                 <li>Cisco Networking and Cybersecurity Certification</li>
                 <li>Python Certification (100 days of code)</li>
                 <li>TryHackMe Badges (<a href="https://tryhackme.com/p/stephnora" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">View Profile</a>)</li>
                 <li>Credly Badges (<a href="https://www.credly.com/users/stephnora-mafeng-osedei" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">View Badges</a>)</li>
-                <li>Mastercard Cybersecurity virtual experience program on Forage (Jan 2025)</li>
-                <li>AIG Shields Up: Cybersecurity virtual experience program on Forage (Jan 2025)</li>
                 <li>AI Research Program (Speech Data, ML, NLP)</li>
                 <li>Cybersecurity Bootcamp - Miva University & Nexascale</li>
               </ul>
@@ -478,7 +479,7 @@ export default function About() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 font-display">Resume</h2>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
-            Get a detailed overview of my professional background and skills.
+            Get a copy of my professional background and skills.
           </p>
           <a
             href="/stephnora_resume.pdf"

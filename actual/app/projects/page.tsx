@@ -104,6 +104,50 @@ const categoryIcons = {
   "AI Tools": <Brain className="h-5 w-5" />,
 }
 
+// Blog posts data (copied from blog page)
+const blogPosts = [
+  {
+    id: 1,
+    title: "Securing Your Python Applications: Best Practices",
+    excerpt:
+      "Learn how to protect your Python applications from common security vulnerabilities with these essential best practices.",
+    date: "May 10, 2024",
+  },
+  {
+    id: 2,
+    title: "Cloud Security Fundamentals: Protecting Your Cloud Infrastructure",
+    excerpt:
+      "A comprehensive introduction to cloud security, best practices for AWS/Azure, and how to secure your cloud workloads.",
+    date: "April 28, 2024",
+  },
+  {
+    id: 3,
+    title: "Building Your First AI Model with Python",
+    excerpt: "A step-by-step tutorial on creating a simple machine learning model using Python and popular libraries.",
+    date: "April 15, 2024",
+  },
+  {
+    id: 4,
+    title: "From Medicine to Tech: My Career Transition",
+    excerpt:
+      "My personal journey of transitioning from medical school to a career in technology, with lessons learned along the way.",
+    date: "March 30, 2024",
+  },
+  {
+    id: 5,
+    title: "Ethical Hacking: Tools of the Trade",
+    excerpt:
+      "An overview of the essential tools and techniques used by ethical hackers to identify and address security vulnerabilities.",
+    date: "March 18, 2024",
+  },
+  {
+    id: 6,
+    title: "Cloud Engineering: Automating Infrastructure with Terraform & Ansible",
+    excerpt: "A practical guide to automating cloud infrastructure deployment and management using Terraform and Ansible.",
+    date: "March 5, 2024",
+  },
+];
+
 export default function Projects() {
   const [filter, setFilter] = useState("All")
   const containerRef = useRef(null)
@@ -284,6 +328,23 @@ export default function Projects() {
             </motion.div>
           )}
         </motion.div>
+      </section>
+
+      {/* Blog Posts Section */}
+      <section className="container mx-auto px-4 pt-8 pb-16 relative z-10">
+        <h2 className="text-3xl font-bold mb-2 text-center">Latest Blog Posts</h2>
+        <p className="text-center text-lg text-gray-500 mb-8">✨ Here are some of my latest thoughts, guides, and stories from my journey in tech. Enjoy reading! ✨</p>
+        <ul className="max-w-3xl mx-auto divide-y divide-gray-200 dark:divide-gray-800 text-base">
+          {blogPosts.map((post) => (
+            <li key={post.id} className="py-6 flex flex-col gap-2 hover:bg-purple-50 dark:hover:bg-gray-800 rounded-lg transition-all mb-2 px-4">
+              <span className="font-bold text-purple-800 dark:text-purple-300 text-lg">
+                <a href="#" className="hover:underline">{post.title}</a>
+              </span>
+              <span className="text-gray-500 text-sm">{post.date}</span>
+              <span className="text-gray-700 dark:text-gray-200 text-base">{post.excerpt}</span>
+            </li>
+          ))}
+        </ul>
       </section>
     </div>
   )
